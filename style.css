@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 30%; /* Możesz dostosować procent, aby dopasować rozmiar zdjęć */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Powiększenie na hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, textarea {
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
